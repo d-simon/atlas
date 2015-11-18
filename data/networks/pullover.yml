@@ -2,7 +2,6 @@
 # Date: 17-11-2015
 # References:
 # - https://en.wikipedia.org/wiki/Sweater
-# - Image: Freimut Bahlo - Own work / CC BY-SA 3.0
 
 definition:
   name: Woven Fabric
@@ -25,7 +24,7 @@ attributes:
   reactivity: limited
 
 meta:
-  image: pullover.jpg
+  image: woven_fabric.jpg
   abstract: A pullover is a knitted garment intended to cover the torso and arms. It is a network of threads arranged to function as a whole.
 
 graph:
