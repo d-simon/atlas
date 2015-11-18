@@ -19,7 +19,7 @@ definition:
 
 
 attributes:
-  topology: centralized
+  topology: distributed
   scale: local
   kind: artificial
   origin: evolved
