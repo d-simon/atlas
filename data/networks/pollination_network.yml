@@ -1,0 +1,45 @@
+# Author: David Simon
+# Date: 17-11-2015
+# References:
+# - https://en.wikipedia.org/wiki/Pollination_network
+
+definition:
+  name: Pollination Network
+  nodes:
+    - Plants
+    - Pollinators (bees, wasps)
+  edges: Pollination Interactions
+  mediums: Pollen
+
+
+attributes:
+  topology: distributed
+  scale: local
+  kind: natural
+  origin: evolved
+  visibility: visible
+  usage: transportation
+  arrangement: dynamic
+  perception: partially
+  stability: ephemeral
+  reactivity: adaptive
+
+meta:
+  image: pollination_network.jpg
+  abstract: A pollination network is a network formed with plants and pollinators as nodes and the pollination interactions then form the links between them. It is a biological network only ever connecting animals and plants directly.
+
+graph:
+  nodes:
+    b1: Pollinator
+    b2: Pollinator
+    b3: Pollinator
+    p1: Plant
+    p2: Plant
+    p3: Plant
+    p4: Plant
+    p5: Plant
+  edges:
+    - p5:b1 b1:p2
+    - p2:b3 b3:p4
+    - p4:b2 b2:p1 b2:p5
+    - b2:p4 b1:p5
