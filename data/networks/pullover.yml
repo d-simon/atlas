@@ -1,0 +1,40 @@
+# Author: David Simon
+# Date: 17-11-2015
+# References:
+# - https://en.wikipedia.org/wiki/Sweater
+
+definition:
+  name: Pullover
+  nodes: Knots
+  edges: Threads
+  mediums: Cotton, Synthetic Fibers, or any combination thereof
+
+attributes:
+  topology: decentralized
+  scale: local
+  kind: artificial
+  origin: designed
+  visibility: visible
+  usage: organisation
+  arrangement: static
+  perception: entirely
+  stability: durable
+  reactivity: limited
+
+meta:
+  image: pullover.jpg
+  abstract: A pullover is a knitted garment intended to cover the torso and arms.
+
+graph:
+  nodes:
+    p1: Knot
+    p2: Knot
+    p3: Knot
+    p4: Knot
+    p5: Knot
+    p6: Knot
+    p7: Knot
+  edges:
+    - p1:p2 p2:p3 p3:p4 p4:p5
+    - p1:p4 p3:p1 p3:p5 p4:p6
+    - p5:p6 p3:p7 p5:p7
