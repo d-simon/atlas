@@ -32,7 +32,7 @@ attributes:
 
 meta:
   image: studio.jpg
-  abstract: An art studio is sometimes called an atelier. In educational studios, students learn to develop skills related to design, ranging from architecture to product design. In specific, educational studios are studio settings where large numbers of students learn to draft and design with instructional help at a college. Educational studios are colloquially referred to as "studio" by students, who are known for staying up late hours into the night doing projects and socializing.
+  abstract: An art studio is sometimes called an atelier. Particularly in educational studios, students learn to develop design skills. Educational studios are studio settings where students stay up late hours into the night doing projects and socializing.
 
 graph:
   nodes:
