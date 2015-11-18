@@ -5,7 +5,7 @@
 # - Image: Freimut Bahlo - Own work / CC BY-SA 3.0
 
 definition:
-  name: Pullover
+  name: Woven Fabric
   nodes: Knots
   edges: Threads
   mediums:
@@ -13,7 +13,7 @@ definition:
     - Synthetic Fibers
 
 attributes:
-  topology: decentralized
+  topology: distributed
   scale: local
   kind: artificial
   origin: designed
